@@ -70,7 +70,7 @@ pitfalls = [
     # ``ensure_nltk_resource`` (back/core/external/pitfalls/utils.py), which
     # rejects percent-encoded/traversal/absolute resource paths, and by the
     # fact that we only ever pass hardcoded resource names — never user input.
-    "nltk>=3.9.4",
+    "nltk>=3.10.0",
     "scipy>=1.11.0",
 ]
 
